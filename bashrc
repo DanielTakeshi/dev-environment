@@ -203,7 +203,8 @@ export WORKON_HOME=~/Envs
 # If you have virtualenvwrapper installed globally via `pip install virtualenvwrapper`:
 # source /usr/local/bin/virtualenvwrapper.sh
 
-# Or if you did `pip install --user virtualenvwrapper` locally:
+# Or if you did `pip install --user virtualenvwrapper` locally.
+# This should normally be the case!
 source ~/.local/bin/virtualenvwrapper.sh
 
 
