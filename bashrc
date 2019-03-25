@@ -176,6 +176,9 @@ if [ -f ~/.vim/bundle/gruvbox/gruvbox_256palette.sh ]; then
 fi
 
 
+# -----------------------------------------------------------------------------
+# NEW STUFF 
+# -----------------------------------------------------------------------------
 
 # Daniel: instead of the following:
 
@@ -195,3 +198,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/.mujoco/mjpro150/bin
 
 # But I'll use the former soon, once we finally upgrade Ubuntu and CUDA ...
 
+
+# For virtualenvwrapper to manage multiple virtual environments.
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
