@@ -181,7 +181,6 @@ fi
 # -----------------------------------------------------------------------------
 
 # Daniel: instead of the following:
-
 ### Add local bin
 ##export PATH=${HOME}/local/bin:${PATH}
 ### CUDA paths
@@ -190,14 +189,13 @@ fi
 ##export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
 
 # Daniel: I actually use this:
-
 export PATH=/usr/local/cuda-9.0/bin:$PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64
-export HISTSIZE=""
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/.mujoco/mjpro150/bin
-
 # But I'll use the former soon, once we finally upgrade Ubuntu and CUDA ...
 
+# Eh, might consider removing?
+export HISTSIZE=""
 
 # For virtualenvwrapper to manage multiple virtual environments.
 export WORKON_HOME=~/Envs
