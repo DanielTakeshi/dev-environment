@@ -199,4 +199,9 @@ export HISTSIZE=""
 
 # For virtualenvwrapper to manage multiple virtual environments.
 export WORKON_HOME=~/Envs
-source /usr/local/bin/virtualenvwrapper.sh
+
+# If you have virtualenvwrapper installed globally via `pip install virtualenvwrapper`:
+# source /usr/local/bin/virtualenvwrapper.sh
+
+# Or if you did `pip install --user virtualenvwrapper` locally:
+source ~/.local/bin/virtualenvwrapper.sh
