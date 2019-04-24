@@ -19,7 +19,8 @@ So you only need `pip` installed globally. I don't know else to get around it,
 though, so someone will have to do `sudo apt-get install python-pip`. But that
 should be the only global thing related to pip.
 
-And then for Python3, do:
+And then for Python3, *assuming you've made the changes in `~/.bashrc` to point
+to your environment directory* do:
 
 ```
 mkvirtualenv --python=`which python3` name-of-env
